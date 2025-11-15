@@ -18,19 +18,21 @@ function App() {
 
 	return (
 		<Router>
-			<Navbar isLoggedIn={isLoggedIn} onLogout={handleLogout} />
-			<div className="container">
-				<Routes>
-					<Route path="/home" element={<Home />} />
-					<Route path="/gallery" element={<Gallery />} />
-					<Route path="/adoption" element={<Adoption />} />
-					<Route path="/release" element={<Release />} />
-					<Route path="/aboutus" element={<AboutUs />} />
-					<Route path="/login" element={<Login onLogin={handleLogin} />} />
-					<Route path="/signup" element={<SignUp />} />
-				</Routes>
+			<div className="App">
+				<Navbar isLoggedIn={isLoggedIn} onLogout={handleLogout} />
+				<main className="main-content">
+					<Routes>
+						<Route path="/" element={<Home />} />
+						<Route path="/gallery" element={<Gallery />} />
+						<Route path="/adoption" element={<Adoption />} />
+						<Route path="/release" element={<Release />} />
+						<Route path="/aboutus" element={<AboutUs />} />
+						<Route path="/login" element={<Login onLogin={handleLogin} />} />
+						<Route path="/signup" element={<SignUp />} />
+					</Routes>
+				</main>
+				<Footer />
 			</div>
-			<Footer />
 		</Router>
 	);
 }
