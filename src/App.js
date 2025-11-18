@@ -7,7 +7,6 @@ import Home from './Pages/Home';
 import Gallery from './Pages/Gallery';
 import Adoption from './Pages/Adoption';
 import Release from './Pages/Release';
-import AboutUs from './Pages/AboutUs';
 import Login from './Components/Login';
 import SignUp from './Components/SignUp';
 
@@ -26,7 +25,6 @@ function App() {
 						<Route path="/gallery" element={<Gallery />} />
 						<Route path="/adoption" element={<Adoption />} />
 						<Route path="/release" element={<Release />} />
-						<Route path="/aboutus" element={<AboutUs />} />
 						<Route path="/login" element={<Login onLogin={handleLogin} />} />
 						<Route path="/signup" element={<SignUp />} />
 					</Routes>

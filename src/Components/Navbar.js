@@ -6,7 +6,13 @@ const Navbar = ({ isLoggedIn, onLogout }) => {
         <nav className="navbar">
             <div className="navbar-container">
                 <Link to="/" className="navbar-logo">
-                    <h2>🐾 Pet Heaven</h2>
+                    <h2>
+                        <img 
+                            src="/AcceptFateDog.png" alt="Pet Heaven Logo" 
+                            style={{ width: '35px', height: '35px', marginRight: '10px' }} 
+                        />
+                        Pet Heaven
+                    </h2>
                 </Link>
                 
                 <ul className="nav-menu">
@@ -21,9 +27,6 @@ const Navbar = ({ isLoggedIn, onLogout }) => {
                     </li>
                     <li className="nav-item">
                         <Link to="/release" className="nav-link">Release Pet</Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link to="/aboutus" className="nav-link">About Us</Link>
                     </li>
                     
                     {!isLoggedIn ? (
