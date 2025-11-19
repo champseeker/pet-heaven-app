@@ -22,7 +22,7 @@ const Login = ({onSubmit}) => {
     return(
         <div className="login-box">
             <h2>Login</h2>
-            <form id="loginForm">
+            <form id="loginForm" onSubmit={handleSubmit}>
                 <div className="form-group">
                     <label htmlFor="username">Username</label>
                     <input name="username"

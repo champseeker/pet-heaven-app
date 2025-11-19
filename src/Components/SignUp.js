@@ -18,7 +18,7 @@ const SignUp = ({onSubmit}) => {
         e.preventDefault();
         const pass = signUpData.password;
         const cPass = signUpData.cPassword;
-        if(pass == cPass){
+        if(pass === cPass){
             onSubmit(signUpData);
             setSignUpData({username:'', password:'', cPassword:''});
         }else{
@@ -30,7 +30,7 @@ const SignUp = ({onSubmit}) => {
     return(
         <div className="login-box">
             <h2>Sign Up</h2>
-            <form id="signupForm">
+            <form id="signupForm" onSubmit={handleSubmit}>
                 <div className="form-group">
                     <label htmlFor="username">Username</label>
                     <input 
@@ -58,7 +58,7 @@ const SignUp = ({onSubmit}) => {
                         placeholder="Confirm password" 
                         required/>
                 </div>
-                <button type="submit" className="btn-primary">Sign Up</button>
+                <button type="submit" className="btn-primary" onClick={handleSubmit}>Sign Up</button>
                 <div className="form-footer">
                     Already have an account?
                     <Link to="/login">Login here</Link>
