@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/pet-heaven-app/static/css/main.8ae30ecf.css",
+    "main.js": "/pet-heaven-app/static/js/main.dd0e2d6a.js",
+    "static/js/453.2ede49b1.chunk.js": "/pet-heaven-app/static/js/453.2ede49b1.chunk.js",
+    "static/media/hero_pets.jpg": "/pet-heaven-app/static/media/hero_pets.fd5738c31b57584bdb06.jpg",
+    "index.html": "/pet-heaven-app/index.html",
+    "main.8ae30ecf.css.map": "/pet-heaven-app/static/css/main.8ae30ecf.css.map",
+    "main.dd0e2d6a.js.map": "/pet-heaven-app/static/js/main.dd0e2d6a.js.map",
+    "453.2ede49b1.chunk.js.map": "/pet-heaven-app/static/js/453.2ede49b1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ae30ecf.css",
+    "static/js/main.dd0e2d6a.js"
+  ]
+}
