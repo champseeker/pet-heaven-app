@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/pet-heaven-app/static/css/main.311e9a59.css",
-    "main.js": "/pet-heaven-app/static/js/main.a1f27316.js",
+    "main.css": "/pet-heaven-app/static/css/main.58cfdf05.css",
+    "main.js": "/pet-heaven-app/static/js/main.7d6d5db7.js",
     "static/js/453.2ede49b1.chunk.js": "/pet-heaven-app/static/js/453.2ede49b1.chunk.js",
     "static/media/AcceptFateDog.png": "/pet-heaven-app/static/media/AcceptFateDog.290607944034ebd670ed.png",
     "static/media/pets-together.jpg": "/pet-heaven-app/static/media/pets-together.f3bb425b4e582daf1451.jpg",
     "static/media/hero_pets.jpg": "/pet-heaven-app/static/media/hero_pets.fd5738c31b57584bdb06.jpg",
     "index.html": "/pet-heaven-app/index.html",
-    "main.311e9a59.css.map": "/pet-heaven-app/static/css/main.311e9a59.css.map",
-    "main.a1f27316.js.map": "/pet-heaven-app/static/js/main.a1f27316.js.map",
+    "main.58cfdf05.css.map": "/pet-heaven-app/static/css/main.58cfdf05.css.map",
+    "main.7d6d5db7.js.map": "/pet-heaven-app/static/js/main.7d6d5db7.js.map",
     "453.2ede49b1.chunk.js.map": "/pet-heaven-app/static/js/453.2ede49b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.311e9a59.css",
-    "static/js/main.a1f27316.js"
+    "static/css/main.58cfdf05.css",
+    "static/js/main.7d6d5db7.js"
   ]
 }
