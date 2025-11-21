@@ -277,6 +277,9 @@ body {
     gap: 2rem;
     margin-bottom: 3rem;
 }
+.card-grid .service-link {
+    text-decoration: none;
+}
 
 .card {
     background: white;
@@ -740,7 +743,7 @@ textarea.form-input {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(139, 90, 60, 0.85);
+    background-color: rgba(54, 53, 53, 0.7);
     display: flex;
     align-items: center;
     justify-content: center;

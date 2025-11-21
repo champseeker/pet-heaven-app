@@ -11,21 +11,26 @@ const Home = () => {
             </section>
 
             <section className="card-grid">
-                <div className="card services-card">
-                    <h3>🐾 Adoption</h3>
-                    <p>Find your best pal through adoption and give a pet a loving home</p>
-                </div>
-                <div className="card services-card">
-                    <h3>💝 Release</h3>
-                    <p>Can't afford to keep your pet? We will take them in and provide proper care</p>
-                </div>
-                <div className="card services-card">
-                    <h3>⚕️ Health Care</h3>
-                    <p>All pets deserve great health care and we provide it to our furry friends</p>
-                </div>
+                <Link to="/adoption" className="service-link">
+                    <div className="card services-card">
+                        <h3>🐾 Adoption</h3>
+                        <p>Find your best pal through adoption and give a pet a loving home</p>
+                    </div>
+                </Link>
+                <Link to="/Release" className="service-link">
+                    <div className="card services-card">
+                        <h3>💝 Release</h3>
+                        <p>Can't afford to keep your pet? We will take them in and provide proper care</p>
+                    </div>
+                </Link>
+                <Link to="#" className="service-link">
+                    <div className="card services-card">
+                        <h3>⚕️ Health Care</h3>
+                        <p>All pets deserve great health care and we provide it to our furry friends</p>
+                    </div>
+                </Link>
             </section>
-
-            {/* About Us Section - Short & Sweet */}
+            
             <section className="about-section">
                 <div className="about-image">
                     <img src={aboutLogo} alt="Happy pets at Pet Heaven" />
