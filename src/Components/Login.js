@@ -20,7 +20,7 @@ const Login = ({ onLogin }) => {
         onLogin(loginData);
         alert('🎉 Login successful! Welcome to Pet Heaven!');
         setLoginData({ username: '', password: '' });
-        navigate('/adoption'); // Redirect to adoption page
+        navigate('/');
     };
     
     return (
