@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../Images/AcceptFateDog.png';
 
 const Navbar = ({ isLoggedIn, onLogout }) => {
     return (
@@ -8,7 +9,7 @@ const Navbar = ({ isLoggedIn, onLogout }) => {
                 <Link to="/" className="navbar-logo">
                     <h2>
                         <img 
-                            src="/AcceptFateDog.png" alt="Pet Heaven Logo" 
+                            src={logo} alt="Pet Heaven Logo" 
                             style={{ width: '35px', height: '35px', marginRight: '10px' }} 
                         />
                         Pet Heaven

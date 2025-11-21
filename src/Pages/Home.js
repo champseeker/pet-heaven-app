@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import aboutLogo from '../Images/pets-together.jpg';
 
 const Home = () => {
     return (
@@ -27,7 +28,7 @@ const Home = () => {
             {/* About Us Section - Short & Sweet */}
             <section className="about-section">
                 <div className="about-image">
-                    <img src="/pets-together.jpg" alt="Happy pets at Pet Heaven" />
+                    <img src={aboutLogo} alt="Happy pets at Pet Heaven" />
                 </div>
                 <div className="about-content">
                     <span className="about-label">ABOUT US</span>
